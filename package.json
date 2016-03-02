@@ -1,0 +1,12 @@
+{
+  "name": "@wunderflats/postal-codes",
+  "version": "0.0.1",
+  "description": "Get Data about German postal codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "none (yet)"
+  },
+  "author": "",
+  "license": "unlicensed",
+  "repository" : "git@bitbucket.org:wunderflats/postal-codes.git"
+}
