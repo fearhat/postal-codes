@@ -1,0 +1,7 @@
+{
+  "extends": "airbnb/legacy",
+  "rules": {
+    "no-param-reassign": 0,
+    "func-names": 0
+  }
+}

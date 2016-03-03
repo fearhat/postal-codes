@@ -8,5 +8,10 @@
   },
   "author": "",
   "license": "unlicensed",
-  "repository" : "git@bitbucket.org:wunderflats/postal-codes.git"
+  "repository": "git@bitbucket.org:wunderflats/postal-codes.git",
+  "devDependencies": {
+    "eslint": "^2.2.0",
+    "eslint-config-airbnb": "^6.0.2",
+    "mocha": "^2.4.5"
+  }
 }
