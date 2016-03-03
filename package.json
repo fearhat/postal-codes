@@ -4,7 +4,7 @@
   "description": "Get Data about German postal codes",
   "main": "index.js",
   "scripts": {
-    "test": "none (yet)"
+    "test": "mocha"
   },
   "author": "",
   "license": "unlicensed",
