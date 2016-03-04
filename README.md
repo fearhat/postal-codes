@@ -8,7 +8,7 @@
 ##### Usage
 ```js
   'use strict';
-  const postal = require('@wunderflats/postal-codes');
+  const postal = require('postal-code');
 
   postal.get('13347'); // returns {regions: ['Berlin'], districts: ['Wedding', 'Gesundbrunnen']}; OR undefined in case nothing was found
   postal.getRegions('13347'); // returns ['Berlin'] / Region OR empty Array
