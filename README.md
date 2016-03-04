@@ -1,6 +1,11 @@
 ### German Postal Codes
 
-usage :
+##### Install
+
+``$ npm install postal-code --save ``
+
+
+##### Usage
 ```js
   'use strict';
   const postal = require('@wunderflats/postal-codes');
