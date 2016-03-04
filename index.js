@@ -71,7 +71,7 @@ function createMappedForDistricts () {
  * Get Regions and Districts to Postalcode
  * @param  {String} postalcode German 5 digit postal code
  * @param {String} property "districts" or "regions" if you want to get one specific property
- * @return {[Object]|undefined} Object with "districts" and "regions" Keys storing their values
+ * @return {Object|undefined} Object with "districts" and "regions" Keys storing their values
  */
 function get (postalcode, property) {
   if (!postalcode) {
