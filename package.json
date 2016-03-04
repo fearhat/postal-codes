@@ -7,7 +7,7 @@
     "test": "eslint . && mocha"
   },
   "author": "",
-  "license": "unlicensed",
+  "license": "MIT",
   "repository": "https://github.com/wunderflats/postal-codes",
   "devDependencies": {
     "eslint": "^2.2.0",
