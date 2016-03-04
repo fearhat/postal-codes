@@ -1,7 +1,7 @@
 {
-  "name": "postal-codes",
+  "name": "postal-code",
   "version": "0.0.1",
-  "description": "Get Data about German postal codes",
+  "description": "Get Data about (german) postal codes",
   "main": "index.js",
   "scripts": {
     "test": "eslint . && mocha"
