@@ -1,5 +1,7 @@
 # German Postal Codes
 
+[![Travis Build](http://img.shields.io/travis/wunderflats/postal-code.svg?style=flat)](https://travis-ci.org/wunderflats/postal-code) [![npm](https://img.shields.io/npm/dm/postal-code.svg)](https://www.npmjs.com/package/postal-code)
+
 ## Install
 
 `$ npm install postal-code --save`
