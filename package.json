@@ -1,14 +1,14 @@
 {
   "name": "postal-code",
   "version": "0.0.2",
-  "description": "Get Data about (german) postal codes",
+  "description": "Get data about (German) postal codes",
   "main": "index.js",
   "scripts": {
     "test": "eslint . && mocha"
   },
-  "author": "",
+  "author": "Wunderflats GmbH",
   "license": "MIT",
-  "repository": "https://github.com/wunderflats/postal-codes",
+  "repository": "https://github.com/wunderflats/postal-code",
   "devDependencies": {
     "eslint": "^2.2.0",
     "eslint-config-standard": "^5.1.0",
