@@ -1,5 +1,5 @@
 {
-  "extends": "airbnb/legacy",
+  "extends": "standard",
   "rules": {
     "no-param-reassign": 0,
     "func-names": 0
