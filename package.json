@@ -1,6 +1,6 @@
 {
   "name": "postal-code",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Get Data about (german) postal codes",
   "main": "index.js",
   "scripts": {
