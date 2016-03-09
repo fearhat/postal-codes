@@ -85,10 +85,12 @@ function get (postalcode, property) {
 
   if (typeof postalcode === 'string') {
     if (postalcode.match(GermanPLZRegex)) {
+      const normalizedPostalCode = Number.parseInt(postalcode, 10).toString()
+
       if (property === 'districts' || property === 'regions') {
-        return data[postalcode] ? data[postalcode][property] : []
+        return data[normalizedPostalCode] ? data[normalizedPostalCode][property] : []
       }
-      return data[postalcode]
+      return data[normalizedPostalCode]
     }
     throw new Error(InvalidPostalcode)
   }
