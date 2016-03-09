@@ -18,8 +18,8 @@ describe('Postalcodes.', function () {
     })
 
     it('should return Array if valid property param was provided', function () {
-      assert.equal(Array.isArray(lib.get('13347', 'districts')), true)
-      assert.equal(Array.isArray(lib.get('13347', 'regions')), true)
+      assert.ok(Array.isArray(lib.get('13347', 'districts')))
+      assert.ok(Array.isArray(lib.get('13347', 'regions')))
     })
 
     it('should return whole result Object in case property param is invalid', function () {
@@ -37,13 +37,11 @@ describe('Postalcodes.', function () {
     })
 
     it('should provide an Array in case a district was provided', function () {
-      assert.equal(Array.isArray(lib.getPostalCodesByDistrict('Gesundbrunnen')), true)
+      assert.ok(Array.isArray(lib.getPostalCodesByDistrict('Gesundbrunnen')))
     })
 
     it('should provide a filled Array in case a valid district was found', function () {
-      assert.equal(
-        lib.getPostalCodesByDistrict('Gesundbrunnen').length > 0, true
-      )
+      assert.ok(lib.getPostalCodesByDistrict('Gesundbrunnen').length > 0)
     })
   })
 
@@ -57,11 +55,11 @@ describe('Postalcodes.', function () {
     })
 
     it('should provide an Array in case a region was provided', function () {
-      assert.equal(Array.isArray(lib.getPostalCodesByRegion('Berlin')), true)
+      assert.ok(Array.isArray(lib.getPostalCodesByRegion('Berlin')))
     })
 
     it('should provide a filled Array in case a valid region was found', function () {
-      assert.equal(lib.getPostalCodesByRegion('Berlin').length > 0, true)
+      assert.ok(lib.getPostalCodesByRegion('Berlin').length > 0)
     })
   })
 })
