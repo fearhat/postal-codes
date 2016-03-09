@@ -22,6 +22,10 @@ describe('Postalcodes.', function () {
       assert.ok(Array.isArray(lib.get('13347', 'regions')))
     })
 
+    it('should return result Object for valid postal codes starting with a 0', function () {
+      assert.ok(lib.get('03052', typeof Object))
+    })
+
     it('should return whole result Object in case property param is invalid', function () {
       assert.equal(lib.get('13347', 'invalidprop'), lib.get('13347'))
     })
