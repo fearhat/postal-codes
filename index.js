@@ -85,7 +85,7 @@ function get (postalcode, property) {
 
   if (typeof postalcode === 'string') {
     if (postalcode.match(GermanPLZRegex)) {
-      var normalizedPostalCode = Number.parseInt(postalcode, 10).toString()
+      var normalizedPostalCode = parseInt(postalcode, 10).toString()
 
       if (property === 'districts' || property === 'regions') {
         return data[normalizedPostalCode] ? data[normalizedPostalCode][property] : []
